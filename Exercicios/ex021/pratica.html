@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        h1.manual{
+            width: 300px;
+            height: 50px;
+            background-color: lightgray;
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            padding: 20px;
+            outline-width: 30px;
+            outline-style: solid;
+            outline-color: blue;
+            margin: 50px;
+            text-align: center;
+        }
+        h1.shorthand{
+            width: 300px;
+            height: 50px;
+            background-color: lightgray;
+            padding: 20px 50px;
+            /*shorthand para padding = top > right > bottom > left - ou top > right assumindo que as outras medidas são iguais aos seus opositores*/
+            margin: 50px 25px 50px 25px;
+                /*shorthand para margin = top > right > bottom > left - ou top > right assumindo que as outras medidas são iguais aos seus opositores*/
+            border: 10px solid red; 
+            /*shorthand para border = width > style > color*/
+            outline: 30px solid blue; 
+            /*shorthand para outlone = width > style > color*/
+            text-align: center;
+        }
+        h1.margimauto{
+            width: 300px;
+            height: 50px;
+            background-color: lightgray;
+            padding: 20px 50px;
+            margin: auto;
+            border: 10px solid red;
+            outline: 30px solid blue;
+            text-align: center;
+
+        }
+          </style>
+</head>
+<body>
+    <h1 class="manual">Exemplo de Caixa</h1>
+    <br>
+    <h1 class="shorthand">Exemplo de Caixa</h1>
+    <br>
+    <h1 class="margimauto">Exemplo de Caixas</h1>
+    
+
+</body>
+</html>

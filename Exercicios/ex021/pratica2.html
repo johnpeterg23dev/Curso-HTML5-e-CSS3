@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags ou Semantical Tags</title>
+    <style>
+        header {
+            width: auto;
+            height: 100px;
+            background-color: gray;
+        }
+        nav {
+            width: auto;
+            height: 40px;
+            background-color: lightgray;
+        }
+        main {
+            width: auto;
+            height: 500px;
+            background-color: gray;
+        }
+        .section1 {
+            width: 600px;
+            height: 250px;
+            background-color: lightgray;
+        }
+        .article1 {
+            width:600px;
+            height: 125px;
+            background-color: white;
+        }
+        .article2 {
+            width:600px;
+            height: 125px;
+            background-color: white;
+        }
+        .asside1 {
+            width: auto;
+            height: 500px;
+            background-color: lightgray;
+        }
+    </style>
+    </head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>link link link link</nav>
+    </header>
+    <main>
+        <section class="section1">
+            <article class="article1">
+                <h2>Título</h2>
+                <p>Texto do Artigo</p>
+            </article>
+            <article class="article2">
+                <h2>Título</h2>
+                <p>Texto do Artigo</p>
+                <aside class="asside1">
+                    conteúdo do site
+                </aside>
+            </article>
+        </section>
+        <aside>
+            conteudo periférico do site
+        </aside>
+    </main>
+    <footer>
+        Conteúdo do rodapé
+    </footer>
+</body>
+</html>

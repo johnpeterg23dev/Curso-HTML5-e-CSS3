@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(-170deg, #9AEBA3, #45C4B0);
+    background-attachment: fixed;
+}
+
+main {
+background-color: white;
+padding: 10px;
+width: 600px;
+margin: auto;
+border-radius: 10px;
+box-shadow: 5px 5px 15px #00182459;
+
+
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    color: #004669;
+    text-align: center;
+    text-shadow: 1px 1px 0px #45C4B0;
+    font-weight: bold;
+   
+}
+
+h2 {
+    font: italic bold 1.5em Arial, Helvetica, sans-serif;
+    
+    color: #13678A;
+    
+    
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
